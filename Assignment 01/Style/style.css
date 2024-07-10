@@ -165,3 +165,226 @@ nav .name {
   text-align: left;
 }
 
+/* Info Card */
+
+#main .background {
+  width: 1490px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 150px auto;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  width: 1350px;
+}
+
+#main .background .content {
+  padding-top: 80px;
+}
+
+#main .background .content .title {
+  color: rgb(13, 19, 33);
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#main .background .content .sub-title {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  width: 1150px;
+  opacity: 0.7;
+  margin: 24px 144px;
+}
+
+#main .info-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1110px;
+  padding-bottom: 80px;
+}
+
+#main .info-cards .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 32px 32px 0 0;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+#main .info-cards .card .card-description {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  /* width: 624px; */
+}
+
+#main .card .card-description .title {
+  padding-top: 48px;
+  padding-left: 48px;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 510px;
+}
+
+#main .card .card-description .sub-title {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 610px;
+  opacity: 0.7;
+  margin-top: 16px;
+  padding-left: 48px;
+}
+
+.card-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 12px 20px 12px 20px;
+  width: 190px;
+  margin-top: 32px;
+  margin-left: 48px;
+}
+
+#main .info-cards .layer1-image {
+  padding-top: 48px;
+}
+
+#main .card-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 32px 32px 0 0;
+  border-radius: 16px;
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+#main .card-2 .card-description .title {
+  padding-top: 48px;
+  padding-left: 48px;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 510px;
+}
+
+#main .info-cards .layer2-image {
+  padding-top: 48px;
+}
+
+#main .card-2 .card-description .sub-title {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 610px;
+  opacity: 0.7;
+  padding-top: 16px;
+  padding-left: 48px;
+}
+
+/* Inspiration segment */
+
+.inspiration-section {
+  margin-top: 90px;
+}
+
+#main .inspiration-section .sub-title {
+  width: 1120px;
+}
+
+#main .inspiration-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#main .inspiration-section .video {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  text-align: center;
+  padding: 32px;
+}
+
+/* Current target */
+
+.html-card {
+  background: rgba(255, 76, 30, 0.05);
+}
+.css-card {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.js-card {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+/* Next target */
+
+#main .next-target {
+  margin-top: 120px;
+  width: 1350px;
+}
+
+#main .next-target .content-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#main .next-target .content-card .content {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-top: 24px;
+}
+
+#main .next-target .content-card .content .description {
+  margin-left: 24px;
+}
+
+/* I need Support */
