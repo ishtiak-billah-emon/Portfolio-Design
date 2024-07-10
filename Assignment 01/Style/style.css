@@ -126,7 +126,6 @@ body {
 }
 
 #header .header-content .contact a{
-  text-decoration: none;
   color: rgb(255, 255, 255);
   border-radius: 8px;
   background: rgb(13, 19, 33);
@@ -134,6 +133,8 @@ body {
   font-weight: 600;
   text-align: center;
   padding: 21px 27px 21px 27px;
+  text-decoration: none;
+  
 }
 
 /* Nav bar design */
