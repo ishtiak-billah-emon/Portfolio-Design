@@ -124,8 +124,12 @@ body {
   letter-spacing: 0%;
   text-align: center;
 }
+#header .header-content .contact{
 
-#header .header-content .contact a{
+  margin-top: 32px;
+}
+
+#header .header-content .contact a {
   color: rgb(255, 255, 255);
   border-radius: 8px;
   background: rgb(13, 19, 33);
@@ -134,7 +138,6 @@ body {
   text-align: center;
   padding: 21px 27px 21px 27px;
   text-decoration: none;
-  
 }
 
 /* Nav bar design */
@@ -158,10 +161,10 @@ body {
   cursor: pointer;
 }
 
-#header nav .btn-primary:hover{
- background-color: #dbdbdb; 
+#header nav .btn-primary:hover {
+  background-color: #dbdbdb;
 }
-#header nav .btn-primary:active{
+#header nav .btn-primary:active {
   transform: scale(0.98);
 }
 
@@ -444,6 +447,8 @@ nav .name {
   background: rgb(255, 255, 255);
   width: 710px;
   height: 60px;
+  padding-left: 25px;
+  font-size: 18px;
 }
 
 #main .support-me .input-container {
@@ -481,9 +486,11 @@ nav .name {
   background: rgba(13, 19, 33, 0.03);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 24px;
+  height: 100px;
+  width:1880px;
 }
 
 .footer .title {
@@ -498,12 +505,11 @@ nav .name {
   flex-direction: row;
   justify-content: right;
   align-items: right;
-  gap: 24px;
-  
+  gap: 32px;
 }
 
-
-.footer .top img{
+.footer .back-to-top {
   width: 35px;
   height: 35px;
 }
+
