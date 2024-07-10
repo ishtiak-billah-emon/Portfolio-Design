@@ -124,8 +124,7 @@ body {
   letter-spacing: 0%;
   text-align: center;
 }
-#header .header-content .contact{
-
+#header .header-content .contact {
   margin-top: 32px;
 }
 
@@ -490,7 +489,7 @@ nav .name {
   align-items: center;
   gap: 24px;
   height: 100px;
-  width:1880px;
+  width: 1880px;
 }
 
 .footer .title {
@@ -512,4 +511,3 @@ nav .name {
   width: 35px;
   height: 35px;
 }
-
