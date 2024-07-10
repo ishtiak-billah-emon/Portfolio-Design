@@ -125,7 +125,8 @@ body {
   text-align: center;
 }
 
-#header .header-content .contact {
+#header .header-content .contact a{
+  text-decoration: none;
   color: rgb(255, 255, 255);
   border-radius: 8px;
   background: rgb(13, 19, 33);
@@ -153,6 +154,14 @@ body {
   font-weight: 600;
   text-align: center;
   opacity: 0.8;
+  cursor: pointer;
+}
+
+#header nav .btn-primary:hover{
+ background-color: #dbdbdb; 
+}
+#header nav .btn-primary:active{
+  transform: scale(0.98);
 }
 
 nav .name {
@@ -441,7 +450,7 @@ nav .name {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin: 16px auto;
+  margin: 32px auto;
 }
 
 #main .support-me .input-box::placeholder {
@@ -489,5 +498,11 @@ nav .name {
   justify-content: right;
   align-items: right;
   gap: 24px;
-  /* display: inline-block; */
+  
+}
+
+
+.footer .top img{
+  width: 35px;
+  height: 35px;
 }
